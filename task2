@@ -1,0 +1,19 @@
+
+# import requests.json
+# from lxml import html
+# import xmltojson
+# from bs4 import BeautifulSoup
+# from requests.auth import HTTPBasicAuth
+
+# url='https://clarity.dexcom.com'
+# post_url='https://clarity.dexcom.com/api/subjet/1681277794575765504/analysis_session'
+# user_name ='codechallenge'
+# password='Password'
+
+# response =requests.get(url,auth = HTTPBasicAuth('user','pass'))
+# print(response.text)
+
+# headers = {'Authorization":"BearerooWwXCZUgAnAdCUsVFYx2Wpald4WwlWiGEaD9sEzTelkKK5SegXv69hnBsLYHBYBO/s4w4upaHuTORh6nTSOw=='}
+
+# reponse_post=requests.post(post_url,headers=headers)
+# print(response_post.text)
