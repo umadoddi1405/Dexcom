@@ -1,9 +1,3 @@
-
-print "Hello"
-
-
-
-# Your last Java code is saved below:
 # import requests,json
 # from lxml import html
 # import xmltojson
@@ -22,4 +16,3 @@ print "Hello"
 
 # response_post = requests.post(post_url, headers=headers)
 # print(response_post.text)
-
