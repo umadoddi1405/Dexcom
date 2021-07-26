@@ -1,19 +1,25 @@
 
-# import requests.json
+print "Hello"
+
+
+
+# Your last Java code is saved below:
+# import requests,json
 # from lxml import html
 # import xmltojson
 # from bs4 import BeautifulSoup
 # from requests.auth import HTTPBasicAuth
 
 # url='https://clarity.dexcom.com'
-# post_url='https://clarity.dexcom.com/api/subjet/1681277794575765504/analysis_session'
-# user_name ='codechallenge'
-# password='Password'
+# post_url ='https://clarity.dexcom.com/api/subject/1681277794575765504/analysis_session'
+# user_name = 'codechallenge'
+# password='Password123'
 
-# response =requests.get(url,auth = HTTPBasicAuth('user','pass'))
+# response = requests.get(url,auth = HTTPBasicAuth('user', 'pass'))
 # print(response.text)
 
-# headers = {'Authorization":"BearerooWwXCZUgAnAdCUsVFYx2Wpald4WwlWiGEaD9sEzTelkKK5SegXv69hnBsLYHBYBO/s4w4upaHuTORh6nTSOw=='}
+# headers = {"Authorization": "Bearer ooWwXCZUgAnAdCUsVFxYx2WpaId4WwIWiGEaD9sEzYelkKK5SegXv69hnBsLYHBYB0/s4w4upaHuTORh6nTS0w=="}
 
-# reponse_post=requests.post(post_url,headers=headers)
+# response_post = requests.post(post_url, headers=headers)
 # print(response_post.text)
+
