@@ -1,0 +1,29 @@
+
+
+*** Settings ***
+
+Library SeleniumLibrary
+
+***Variable***
+${browser}  Chrome
+${url}  https://clarity.dexcom.com/
+
+
+*** Test Cases ****
+
+LoginTest
+  
+  create webdriver chrome  executable_path="C:\Program Files (x86)\Google\Chrome\Application.exe"
+  Open browser  ${url}    {browser}
+  loginToApplication
+  close browser
+  
+***** Keywords ****
+loginToApplication
+  click link  xpath:/html/body/div[1]/div[1]/div/div[3]/div/nav/ul/li[1]/div/a
+  input text id :username  codechallenge
+  input tett id :Password  Password123
+  click element xpath://
+
+*****When trying to inspect not getting the right chrome xpath****  
+
